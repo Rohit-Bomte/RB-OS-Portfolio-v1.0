@@ -1,10 +1,10 @@
 export const profile = {
     name: "Rohit Bomte",
-    title: "Data Engineering & Analytics Intern @ Delphi Analytics",
-    headline: "Data Engineer Intern | ETL Pipelines | Apache Airflow | SQL | Python | Web Scraping | Data Analytics",
+    title: "Data Engineer Intern @ Delphi Analytics",
+    headline: "Data Engineer • B.Tech CSE (IoT) • GHRCE Nagpur",
     email: "bomterohit@gmail.com",
     location: "Nagpur, Maharashtra, India",
-    bio: `Data Engineer Intern with hands-on experience in building and maintaining end-to-end ETL pipelines using Apache Airflow, Python, and SQL. Skilled in web scraping from e-commerce platforms, implementing MT (clean-delete-insert) and RMT (clean-replace-optimize) strategies, and managing Airflow DAGs for reliable data orchestration. Focused on building scalable, production-ready data systems.`,
+    bio: `Data Analytics enthusiast passionate about transforming raw data into actionable insights through problem-solving and compelling data narratives. I excel at real-time problem solving and creating compelling data stories that drive decision-making. When I'm not diving deep into datasets or crafting interactive dashboards, you'll find me behind the lens capturing life's moments or editing creative videos.`,
     quote: `"Data is the new oil, but insights are the refined fuel that powers innovation."`,
     links: {
         linkedin: "https://in.linkedin.com/in/rohit-bomte",
@@ -17,20 +17,20 @@ export const profile = {
 
 export const experience = [
     {
-        role: "Data Engineering & Analytics Intern",
+        role: "Data Engineer Intern",
         company: "Delphi Analytics",
         period: "Dec 2025 – Present",
         icon: "💼",
         description:
-            "Building end-to-end ETL pipelines, automating marketplace data extraction with Playwright/Selenium, orchestrating workflows with Apache Airflow, and managing data warehousing with ClickHouse & S3.",
+            "Building data pipelines, automating marketplace data extraction with Playwright/Selenium, orchestrating ETL workflows with Airflow, and managing data warehousing with ClickHouse & S3.",
     },
     {
-        role: "Data Analyst",
-        company: "Codons",
+        role: "Data Analyst Intern",
+        company: "Codons Technologies",
         period: "Oct 2024 – Apr 2025",
         icon: "📊",
         description:
-            "Developed Power BI dashboards for HR attrition and sales analysis. Analyzed data using SQL and Python (Pandas, NumPy).",
+            "Hands-on experience in data cleaning, transformation, and building interactive dashboards using Power BI and Python.",
     },
     {
         role: "Media Production Lead",
@@ -103,14 +103,14 @@ export const skills = {
 };
 
 export const skillRadar = {
-    "Data Analytics": 80,
-    Visualization: 78,
-    Programming: 72,
-    "Data Engineering": 68,
-    Automation: 70,
-    "Cloud & Storage": 45,
-    "AI & ML": 50,
-    "DevOps": 40,
+    "Data Engineering": 90,
+    "Data Analytics": 95,
+    Visualization: 90,
+    "Cloud & Storage": 75,
+    "AI & ML": 80,
+    Automation: 85,
+    Programming: 90,
+    "DevOps": 70,
 };
 
 export const projects = [
@@ -155,43 +155,54 @@ export const projects = [
         tech: ["Python", "Pandas", "Seaborn", "Matplotlib"],
         github: "https://github.com/Rohit-Bomte/HR_Attrition",
     },
+    {
+        title: "RFM Customer Segmentation",
+        icon: "📊",
+        description:
+            "MySQL-based Recency, Frequency, Monetary analysis for customer segmentation and targeted marketing strategies.",
+        tech: ["MySQL", "SQL", "Data Analysis"],
+        github: "https://github.com/Rohit-Bomte",
+    },
+    {
+        title: "IMDB Sentiment Classifier",
+        icon: "🎬",
+        description:
+            "NLP-based movie review sentiment analysis using ML models with a Streamlit web interface for real-time predictions.",
+        tech: ["Python", "NLTK", "Scikit-learn", "Streamlit", "NLP"],
+        github: "https://github.com/Rohit-Bomte",
+    },
 ];
 
 export const certifications = [
     {
-        name: "OCI 2025 Certified Generative AI Professional",
+        name: "OCI Certified Generative AI Professional",
         org: "Oracle",
         year: "2025",
         icon: "🏅",
-        credentialUrl: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=2D6DB87FC65C48B1880248E9DC3E4C43429265C4A43C088055EEF0FB2F7D1C6E",
     },
     {
-        name: "OCI 2025 Certified AI Foundations Associate",
+        name: "OCI Certified AI Foundations Associate",
         org: "Oracle",
         year: "2025",
         icon: "🏅",
-        credentialUrl: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=D663FA586DB4D659DDE2DC5CF27CAE1F4694F085E566492667A7A058CF856CE4",
     },
     {
-        name: "AI Agents Intensive Course with Google",
-        org: "Kaggle",
+        name: "5-Day AI Agents Intensive Course",
+        org: "Google",
         year: "2025",
         icon: "🤖",
-        credentialUrl: "https://www.kaggle.com/certification/badges/rohitbomte/105",
     },
     {
-        name: "Data Visualisation: Empowering Business with Effective Insights",
-        org: "Tata (Forage)",
+        name: "Data Visualisation Job Simulation",
+        org: "Tata",
         year: "2025",
         icon: "📊",
-        credentialUrl: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/MyXvBcppsW2FkNYCX_ifobHAoMjQs9s6bKS_ndS25Y3WebspKqy2q_1755699920014_completion_certificate.pdf",
     },
     {
-        name: "GenAI Powered Data Analytics Job Simulation",
-        org: "Tata (Forage)",
+        name: "GenAI Powered Data Analytics Simulation",
+        org: "Tata",
         year: "2025",
         icon: "🧠",
-        credentialUrl: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_ndS25Y3WebspKqy2q_1755712083014_completion_certificate.pdf",
     },
     {
         name: "IC3ET Certificate of Presentation",
