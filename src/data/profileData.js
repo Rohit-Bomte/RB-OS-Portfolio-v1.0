@@ -19,7 +19,7 @@ export const experience = [
     {
         role: "Data Engineering & Analytics Intern",
         company: "Delphi Analytics",
-        period: "Dec 2024 – Present",
+        period: "Dec 2025 – Present",
         icon: "💼",
         description:
             "Building end-to-end ETL pipelines, automating marketplace data extraction with Playwright/Selenium, orchestrating workflows with Apache Airflow, and managing data warehousing with ClickHouse & S3.",
